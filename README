@@ -1,0 +1,9 @@
+This is a Wrapper Classes for CFFTP used iOS5 and Test Program.
+
+FTPRequest
+  FTPGetter use single file download, also use listing specified by direcotry.
+  FTPPutter use single file upload.
+  FTPCreateDirecotry use create remote directory.
+
+FTPOperation
+    is just test implement while puting file with create intermidiate directories.

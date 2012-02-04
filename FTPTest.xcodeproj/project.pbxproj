@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B00658B14DD0BC60053D6D7 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7B00658A14DD0BC60053D6D7 /* README */; };
 		7BC743BA14D91C9100DCE3D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743B914D91C9100DCE3D6 /* UIKit.framework */; };
 		7BC743BC14D91C9100DCE3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743BB14D91C9100DCE3D6 /* Foundation.framework */; };
 		7BC743BE14D91C9100DCE3D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743BD14D91C9100DCE3D6 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B00658A14DD0BC60053D6D7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		7BC743B514D91C9100DCE3D6 /* FTPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC743B914D91C9100DCE3D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BC743BB14D91C9100DCE3D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 		7BC743AA14D91C9000DCE3D6 = {
 			isa = PBXGroup;
 			children = (
+				7B00658A14DD0BC60053D6D7 /* README */,
 				7BC743E814D9399900DCE3D6 /* CFNetwork.framework */,
 				7BC743BF14D91C9100DCE3D6 /* FTPTest */,
 				7BC743B814D91C9100DCE3D6 /* Frameworks */,
@@ -238,6 +241,7 @@
 				7BC743F914D9737000DCE3D6 /* CreateDirectoryViewController.xib in Resources */,
 				7BC743FB14D97FAA00DCE3D6 /* Folder.png in Resources */,
 				7BC7440314DC0A1400DCE3D6 /* OperationViewController.xib in Resources */,
+				7B00658B14DD0BC60053D6D7 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +382,7 @@
 				7BC743E314D91C9100DCE3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
