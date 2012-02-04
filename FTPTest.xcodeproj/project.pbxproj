@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BC743BA14D91C9100DCE3D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743B914D91C9100DCE3D6 /* UIKit.framework */; };
+		7BC743BC14D91C9100DCE3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743BB14D91C9100DCE3D6 /* Foundation.framework */; };
+		7BC743BE14D91C9100DCE3D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743BD14D91C9100DCE3D6 /* CoreGraphics.framework */; };
+		7BC743C414D91C9100DCE3D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743C214D91C9100DCE3D6 /* InfoPlist.strings */; };
+		7BC743C614D91C9100DCE3D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743C514D91C9100DCE3D6 /* main.m */; };
+		7BC743CA14D91C9100DCE3D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743C914D91C9100DCE3D6 /* AppDelegate.m */; };
+		7BC743CD14D91C9100DCE3D6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743CC14D91C9100DCE3D6 /* FirstViewController.m */; };
+		7BC743CF14D91C9100DCE3D6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743CE14D91C9100DCE3D6 /* first.png */; };
+		7BC743D114D91C9100DCE3D6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743D014D91C9100DCE3D6 /* first@2x.png */; };
+		7BC743D414D91C9100DCE3D6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743D314D91C9100DCE3D6 /* SecondViewController.m */; };
+		7BC743D614D91C9100DCE3D6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743D514D91C9100DCE3D6 /* second.png */; };
+		7BC743D814D91C9100DCE3D6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743D714D91C9100DCE3D6 /* second@2x.png */; };
+		7BC743DB14D91C9100DCE3D6 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743D914D91C9100DCE3D6 /* FirstViewController.xib */; };
+		7BC743DE14D91C9100DCE3D6 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743DC14D91C9100DCE3D6 /* SecondViewController.xib */; };
+		7BC743E714D924E900DCE3D6 /* FTPGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743E614D924E900DCE3D6 /* FTPGetter.m */; };
+		7BC743E914D9399900DCE3D6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC743E814D9399900DCE3D6 /* CFNetwork.framework */; };
+		7BC743EB14D9501900DCE3D6 /* Natu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743EA14D9501900DCE3D6 /* Natu.gif */; };
+		7BC743EE14D951EA00DCE3D6 /* FTPPutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743ED14D951EA00DCE3D6 /* FTPPutter.m */; };
+		7BC743F114D9521C00DCE3D6 /* FTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743F014D9521C00DCE3D6 /* FTPRequest.m */; };
+		7BC743F414D96C0C00DCE3D6 /* FTPCreateDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743F314D96C0B00DCE3D6 /* FTPCreateDirectory.m */; };
+		7BC743F814D9737000DCE3D6 /* CreateDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743F614D9736F00DCE3D6 /* CreateDirectoryViewController.m */; };
+		7BC743F914D9737000DCE3D6 /* CreateDirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743F714D9737000DCE3D6 /* CreateDirectoryViewController.xib */; };
+		7BC743FB14D97FAA00DCE3D6 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC743FA14D97FAA00DCE3D6 /* Folder.png */; };
+		7BC743FE14D9875200DCE3D6 /* FTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC743FD14D9875100DCE3D6 /* FTPOperation.m */; };
+		7BC7440214DC0A1400DCE3D6 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7440014DC0A1100DCE3D6 /* OperationViewController.m */; };
+		7BC7440314DC0A1400DCE3D6 /* OperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC7440114DC0A1200DCE3D6 /* OperationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BC743B514D91C9100DCE3D6 /* FTPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC743B914D91C9100DCE3D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BC743BB14D91C9100DCE3D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BC743BD14D91C9100DCE3D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BC743C114D91C9100DCE3D6 /* FTPTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTPTest-Info.plist"; sourceTree = "<group>"; };
+		7BC743C314D91C9100DCE3D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BC743C514D91C9100DCE3D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BC743C714D91C9100DCE3D6 /* FTPTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTPTest-Prefix.pch"; sourceTree = "<group>"; };
+		7BC743C814D91C9100DCE3D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BC743C914D91C9100DCE3D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BC743CB14D91C9100DCE3D6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7BC743CC14D91C9100DCE3D6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7BC743CE14D91C9100DCE3D6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		7BC743D014D91C9100DCE3D6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		7BC743D214D91C9100DCE3D6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7BC743D314D91C9100DCE3D6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7BC743D514D91C9100DCE3D6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		7BC743D714D91C9100DCE3D6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		7BC743DA14D91C9100DCE3D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		7BC743DD14D91C9100DCE3D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		7BC743E514D924E900DCE3D6 /* FTPGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPGetter.h; path = Classes/FTPGetter.h; sourceTree = "<group>"; };
+		7BC743E614D924E900DCE3D6 /* FTPGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPGetter.m; path = Classes/FTPGetter.m; sourceTree = "<group>"; };
+		7BC743E814D9399900DCE3D6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7BC743EA14D9501900DCE3D6 /* Natu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Natu.gif; path = ../../../../Pictures/Natu.gif; sourceTree = "<group>"; };
+		7BC743EC14D951EA00DCE3D6 /* FTPPutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPPutter.h; path = Classes/FTPPutter.h; sourceTree = "<group>"; };
+		7BC743ED14D951EA00DCE3D6 /* FTPPutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPPutter.m; path = Classes/FTPPutter.m; sourceTree = "<group>"; };
+		7BC743EF14D9521C00DCE3D6 /* FTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPRequest.h; path = Classes/FTPRequest.h; sourceTree = "<group>"; };
+		7BC743F014D9521C00DCE3D6 /* FTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPRequest.m; path = Classes/FTPRequest.m; sourceTree = "<group>"; };
+		7BC743F214D96C0B00DCE3D6 /* FTPCreateDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPCreateDirectory.h; path = Classes/FTPCreateDirectory.h; sourceTree = "<group>"; };
+		7BC743F314D96C0B00DCE3D6 /* FTPCreateDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPCreateDirectory.m; path = Classes/FTPCreateDirectory.m; sourceTree = "<group>"; };
+		7BC743F514D9736F00DCE3D6 /* CreateDirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDirectoryViewController.h; sourceTree = "<group>"; };
+		7BC743F614D9736F00DCE3D6 /* CreateDirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDirectoryViewController.m; sourceTree = "<group>"; };
+		7BC743F714D9737000DCE3D6 /* CreateDirectoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateDirectoryViewController.xib; sourceTree = "<group>"; };
+		7BC743FA14D97FAA00DCE3D6 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
+		7BC743FC14D9875100DCE3D6 /* FTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPOperation.h; path = Classes/FTPOperation.h; sourceTree = "<group>"; };
+		7BC743FD14D9875100DCE3D6 /* FTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPOperation.m; path = Classes/FTPOperation.m; sourceTree = "<group>"; };
+		7BC743FF14DC0A0E00DCE3D6 /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		7BC7440014DC0A1100DCE3D6 /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		7BC7440114DC0A1200DCE3D6 /* OperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC743B214D91C9100DCE3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC743E914D9399900DCE3D6 /* CFNetwork.framework in Frameworks */,
+				7BC743BA14D91C9100DCE3D6 /* UIKit.framework in Frameworks */,
+				7BC743BC14D91C9100DCE3D6 /* Foundation.framework in Frameworks */,
+				7BC743BE14D91C9100DCE3D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC743AA14D91C9000DCE3D6 = {
+			isa = PBXGroup;
+			children = (
+				7BC743E814D9399900DCE3D6 /* CFNetwork.framework */,
+				7BC743BF14D91C9100DCE3D6 /* FTPTest */,
+				7BC743B814D91C9100DCE3D6 /* Frameworks */,
+				7BC743B614D91C9100DCE3D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC743B614D91C9100DCE3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC743B514D91C9100DCE3D6 /* FTPTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC743B814D91C9100DCE3D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC743B914D91C9100DCE3D6 /* UIKit.framework */,
+				7BC743BB14D91C9100DCE3D6 /* Foundation.framework */,
+				7BC743BD14D91C9100DCE3D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BC743BF14D91C9100DCE3D6 /* FTPTest */ = {
+			isa = PBXGroup;
+			children = (
+				7BC743E414D924BD00DCE3D6 /* Classes */,
+				7BC743C814D91C9100DCE3D6 /* AppDelegate.h */,
+				7BC743C914D91C9100DCE3D6 /* AppDelegate.m */,
+				7BC743CB14D91C9100DCE3D6 /* FirstViewController.h */,
+				7BC743CC14D91C9100DCE3D6 /* FirstViewController.m */,
+				7BC743CE14D91C9100DCE3D6 /* first.png */,
+				7BC743D014D91C9100DCE3D6 /* first@2x.png */,
+				7BC743D214D91C9100DCE3D6 /* SecondViewController.h */,
+				7BC743D314D91C9100DCE3D6 /* SecondViewController.m */,
+				7BC743D514D91C9100DCE3D6 /* second.png */,
+				7BC743D714D91C9100DCE3D6 /* second@2x.png */,
+				7BC743D914D91C9100DCE3D6 /* FirstViewController.xib */,
+				7BC743DC14D91C9100DCE3D6 /* SecondViewController.xib */,
+				7BC743F514D9736F00DCE3D6 /* CreateDirectoryViewController.h */,
+				7BC743F614D9736F00DCE3D6 /* CreateDirectoryViewController.m */,
+				7BC743F714D9737000DCE3D6 /* CreateDirectoryViewController.xib */,
+				7BC743FF14DC0A0E00DCE3D6 /* OperationViewController.h */,
+				7BC7440014DC0A1100DCE3D6 /* OperationViewController.m */,
+				7BC7440114DC0A1200DCE3D6 /* OperationViewController.xib */,
+				7BC743C014D91C9100DCE3D6 /* Supporting Files */,
+			);
+			path = FTPTest;
+			sourceTree = "<group>";
+		};
+		7BC743C014D91C9100DCE3D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC743FA14D97FAA00DCE3D6 /* Folder.png */,
+				7BC743EA14D9501900DCE3D6 /* Natu.gif */,
+				7BC743C114D91C9100DCE3D6 /* FTPTest-Info.plist */,
+				7BC743C214D91C9100DCE3D6 /* InfoPlist.strings */,
+				7BC743C514D91C9100DCE3D6 /* main.m */,
+				7BC743C714D91C9100DCE3D6 /* FTPTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC743E414D924BD00DCE3D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7BC743E514D924E900DCE3D6 /* FTPGetter.h */,
+				7BC743E614D924E900DCE3D6 /* FTPGetter.m */,
+				7BC743EC14D951EA00DCE3D6 /* FTPPutter.h */,
+				7BC743ED14D951EA00DCE3D6 /* FTPPutter.m */,
+				7BC743EF14D9521C00DCE3D6 /* FTPRequest.h */,
+				7BC743F014D9521C00DCE3D6 /* FTPRequest.m */,
+				7BC743F214D96C0B00DCE3D6 /* FTPCreateDirectory.h */,
+				7BC743F314D96C0B00DCE3D6 /* FTPCreateDirectory.m */,
+				7BC743FC14D9875100DCE3D6 /* FTPOperation.h */,
+				7BC743FD14D9875100DCE3D6 /* FTPOperation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC743B414D91C9100DCE3D6 /* FTPTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC743E114D91C9100DCE3D6 /* Build configuration list for PBXNativeTarget "FTPTest" */;
+			buildPhases = (
+				7BC743B114D91C9100DCE3D6 /* Sources */,
+				7BC743B214D91C9100DCE3D6 /* Frameworks */,
+				7BC743B314D91C9100DCE3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPTest;
+			productName = FTPTest;
+			productReference = 7BC743B514D91C9100DCE3D6 /* FTPTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC743AC14D91C9000DCE3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7BC743AF14D91C9000DCE3D6 /* Build configuration list for PBXProject "FTPTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BC743AA14D91C9000DCE3D6;
+			productRefGroup = 7BC743B614D91C9100DCE3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC743B414D91C9100DCE3D6 /* FTPTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC743B314D91C9100DCE3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC743C414D91C9100DCE3D6 /* InfoPlist.strings in Resources */,
+				7BC743CF14D91C9100DCE3D6 /* first.png in Resources */,
+				7BC743D114D91C9100DCE3D6 /* first@2x.png in Resources */,
+				7BC743D614D91C9100DCE3D6 /* second.png in Resources */,
+				7BC743D814D91C9100DCE3D6 /* second@2x.png in Resources */,
+				7BC743DB14D91C9100DCE3D6 /* FirstViewController.xib in Resources */,
+				7BC743DE14D91C9100DCE3D6 /* SecondViewController.xib in Resources */,
+				7BC743EB14D9501900DCE3D6 /* Natu.gif in Resources */,
+				7BC743F914D9737000DCE3D6 /* CreateDirectoryViewController.xib in Resources */,
+				7BC743FB14D97FAA00DCE3D6 /* Folder.png in Resources */,
+				7BC7440314DC0A1400DCE3D6 /* OperationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC743B114D91C9100DCE3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC743C614D91C9100DCE3D6 /* main.m in Sources */,
+				7BC743CA14D91C9100DCE3D6 /* AppDelegate.m in Sources */,
+				7BC743CD14D91C9100DCE3D6 /* FirstViewController.m in Sources */,
+				7BC743D414D91C9100DCE3D6 /* SecondViewController.m in Sources */,
+				7BC743E714D924E900DCE3D6 /* FTPGetter.m in Sources */,
+				7BC743EE14D951EA00DCE3D6 /* FTPPutter.m in Sources */,
+				7BC743F114D9521C00DCE3D6 /* FTPRequest.m in Sources */,
+				7BC743F414D96C0C00DCE3D6 /* FTPCreateDirectory.m in Sources */,
+				7BC743F814D9737000DCE3D6 /* CreateDirectoryViewController.m in Sources */,
+				7BC743FE14D9875200DCE3D6 /* FTPOperation.m in Sources */,
+				7BC7440214DC0A1400DCE3D6 /* OperationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BC743C214D91C9100DCE3D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC743C314D91C9100DCE3D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7BC743D914D91C9100DCE3D6 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC743DA14D91C9100DCE3D6 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		7BC743DC14D91C9100DCE3D6 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC743DD14D91C9100DCE3D6 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BC743DF14D91C9100DCE3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BC743E014D91C9100DCE3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BC743E214D91C9100DCE3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTPTest/FTPTest-Prefix.pch";
+				INFOPLIST_FILE = "FTPTest/FTPTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BC743E314D91C9100DCE3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTPTest/FTPTest-Prefix.pch";
+				INFOPLIST_FILE = "FTPTest/FTPTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC743AF14D91C9000DCE3D6 /* Build configuration list for PBXProject "FTPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC743DF14D91C9100DCE3D6 /* Debug */,
+				7BC743E014D91C9100DCE3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC743E114D91C9100DCE3D6 /* Build configuration list for PBXNativeTarget "FTPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC743E214D91C9100DCE3D6 /* Debug */,
+				7BC743E314D91C9100DCE3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC743AC14D91C9000DCE3D6 /* Project object */;
+}
